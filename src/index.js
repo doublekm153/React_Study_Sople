@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import Library from "./chap03/Library";
+//import Library from "./chap_03/Library";
 //import Clock from "./chap_04/Clock";
 //import CommentList from "./chap_05/CommentList";
 //import NotificationList from "./chap_06/NotificationList";
@@ -10,10 +10,11 @@ import Library from "./chap03/Library";
 //import UserStatus from "./chap_07/UserStatus";
 //const root = ReactDOM.createRoot(document.getElementById("root"));
 //import ConfirmButton from "./chap_08/ConfirmButton";
+import LandingPage from "./chap_09/LandingPage";
 
 ReactDOM.render(
     <React.StrictMode>
-        <Library />
+        <LandingPage />
     </React.StrictMode>,
     document.getElementById("root")
 );
