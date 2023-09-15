@@ -11,11 +11,12 @@ import reportWebVitals from "./reportWebVitals";
 //const root = ReactDOM.createRoot(document.getElementById("root"));
 //import ConfirmButton from "./chap_08/ConfirmButton";
 //import LandingPage from "./chap_09/LandingPage";
-import AttendanceBook from "./chap_10/AttendanceBook";
+//import AttendanceBook from "./chap_10/AttendanceBook";
+import SignUp from "./chap_11/SignUp";
 
 ReactDOM.render(
     <React.StrictMode>
-        <AttendanceBook />
+        <SignUp />
     </React.StrictMode>,
     document.getElementById("root")
 );
