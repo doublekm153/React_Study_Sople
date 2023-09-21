@@ -12,11 +12,12 @@ import reportWebVitals from "./reportWebVitals";
 //import ConfirmButton from "./chap_08/ConfirmButton";
 //import LandingPage from "./chap_09/LandingPage";
 //import AttendanceBook from "./chap_10/AttendanceBook";
-import SignUp from "./chap_11/SignUp";
+//import SignUp from "./chap_11/SignUp";
+import Calculator from "./chap_12/Calculator";
 
 ReactDOM.render(
     <React.StrictMode>
-        <SignUp />
+        <Calculator />
     </React.StrictMode>,
     document.getElementById("root")
 );
