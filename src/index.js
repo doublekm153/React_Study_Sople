@@ -13,11 +13,12 @@ import reportWebVitals from "./reportWebVitals";
 //import LandingPage from "./chap_09/LandingPage";
 //import AttendanceBook from "./chap_10/AttendanceBook";
 //import SignUp from "./chap_11/SignUp";
-import Calculator from "./chap_12/Calculator";
+//import Calculator from "./chap_12/Calculator";
+import ProfileCard from "./chap_13/ProfileCard";
 
 ReactDOM.render(
     <React.StrictMode>
-        <Calculator />
+        <ProfileCard />
     </React.StrictMode>,
     document.getElementById("root")
 );
