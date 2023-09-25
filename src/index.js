@@ -15,11 +15,13 @@ import reportWebVitals from "./reportWebVitals";
 //import SignUp from "./chap_11/SignUp";
 //import Calculator from "./chap_12/Calculator";
 //import ProfileCard from "./chap_13/ProfileCard";
-import DarkOrLight from "./chap_14/DarkOrLight";
+//import DarkOrLight from "./chap_14/DarkOrLight";
+//import MainPage from "./chap_14/MainPage";
+import Blocks from "./chap_15/Blocks";
 
 ReactDOM.render(
     <React.StrictMode>
-        <DarkOrLight />
+        <Blocks />
     </React.StrictMode>,
     document.getElementById("root")
 );
