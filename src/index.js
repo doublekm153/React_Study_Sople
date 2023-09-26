@@ -17,11 +17,12 @@ import reportWebVitals from "./reportWebVitals";
 //import ProfileCard from "./chap_13/ProfileCard";
 //import DarkOrLight from "./chap_14/DarkOrLight";
 //import MainPage from "./chap_14/MainPage";
-import Blocks from "./chap_15/Blocks";
+//import Blocks from "./chap_15/Blocks";
+import App from "./App";
 
 ReactDOM.render(
     <React.StrictMode>
-        <Blocks />
+        <App />
     </React.StrictMode>,
     document.getElementById("root")
 );
